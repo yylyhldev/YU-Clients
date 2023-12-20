@@ -1,0 +1,17 @@
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\bin\Debug\net8.0-windows\Yu.Client.WF.exe
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\bin\Debug\net8.0-windows\Yu.Client.WF.deps.json
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\bin\Debug\net8.0-windows\Yu.Client.WF.runtimeconfig.json
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\bin\Debug\net8.0-windows\Yu.Client.WF.dll
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\bin\Debug\net8.0-windows\Yu.Client.WF.pdb
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.Form1.resources
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.csproj.GenerateResource.cache
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.AssemblyInfoInputs.cache
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.AssemblyInfo.cs
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.csproj.CoreCompileInputs.cache
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.sourcelink.json
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.dll
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\refint\Yu.Client.WF.dll
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.pdb
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\Yu.Client.WF.genruntimeconfig.cache
+D:\Study\My\YU.Clients\Yu.Client.WF\Yu.Client.WF\obj\Debug\net8.0-windows\ref\Yu.Client.WF.dll
