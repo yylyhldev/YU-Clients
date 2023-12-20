@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yu.Client.WF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8145649916cc53d8ec668dc2996051cf9602d9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yu.Client.WF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yu.Client.WF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
