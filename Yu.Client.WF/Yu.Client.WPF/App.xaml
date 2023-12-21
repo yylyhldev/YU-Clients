@@ -1,9 +1,38 @@
 ﻿<Application x:Class="Yu.Client.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Yu.Client.WPF"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:Yu.Client.WPF" Startup="Application_Startup">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--密码框-->
+            <Style x:Key="StyleTxtPwd" TargetType="{x:Type TextBox}">
+                <Setter Property="TextDecorations">
+                    <Setter.Value>
+                        <TextDecorationCollection>
+                            <TextDecoration>
+                                <TextDecoration.Pen>
+                                    <Pen Thickness="10" Brush="Black" EndLineCap="Round" StartLineCap="Round" DashCap="Round">
+                                        <Pen.DashStyle>
+                                            <DashStyle Dashes="0.0,1.2" Offset="0.6"/>
+                                        </Pen.DashStyle>
+                                    </Pen>
+                                </TextDecoration.Pen>
+                                <TextDecoration.Location>
+                                    <TextDecorationLocation>Strikethrough</TextDecorationLocation>
+                                </TextDecoration.Location>
+                            </TextDecoration>
+                        </TextDecorationCollection>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Foreground" Value="Transparent"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="FontFamily" Value="Courier New"></Setter>
+            </Style>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
