@@ -36,6 +36,11 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+Bin/
+bin/
+Obj/
+obj/
+
 # deploy/
 
 # Visual Studio 2015/2017 cache/options directory
