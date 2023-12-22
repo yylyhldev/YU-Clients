@@ -40,6 +40,10 @@ Bin/
 bin/
 Obj/
 obj/
+/Bin/
+/bin/
+/Obj/
+/obj/
 
 # deploy/
 
