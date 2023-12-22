@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.808" />
+  </ItemGroup>
+
 </Project>

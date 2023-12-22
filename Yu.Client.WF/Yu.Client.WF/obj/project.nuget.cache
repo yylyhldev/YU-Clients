@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gFygi4NIpdYzv2/db9g6xw9Sb0/6Nv9ZYC7B1VqETg+d+2lGWZ/A4G8VslbkCl7jG8Pk1j7JWT2/b0qL6i+/8w==",
+  "dgSpecHash": "+bfkapllvh5AYn0tvLOyeyvskOrhyDjgcOpb2aGddknamzpInIsrL+iKwHS0meE/MS8tIOTpLVm7P7046WRHQw==",
   "success": true,
   "projectFilePath": "D:\\Study\\My\\YU.Clients\\Yu.Client.WF\\Yu.Client.WF\\Yu.Client.WF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\freesql\\3.2.808\\freesql.3.2.808.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\freesql.provider.sqlite\\3.2.808\\freesql.provider.sqlite.3.2.808.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yu.Client.WF", "Yu.Client.WF\Yu.Client.WF.csproj", "{88084A6B-4B03-4943-9DF1-F3611BF42BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu.Client.WPF", "Yu.Client.WPF\Yu.Client.WPF.csproj", "{2C383223-FF6C-44BB-A516-48614748DE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yu.Client.WPF", "Yu.Client.WPF\Yu.Client.WPF.csproj", "{2C383223-FF6C-44BB-A516-48614748DE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
