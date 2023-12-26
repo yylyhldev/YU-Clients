@@ -40,6 +40,7 @@
             // 
             // panel1
             // 
+            panel1.AutoSize = true;
             panel1.Location = new Point(145, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(643, 413);
@@ -105,7 +106,7 @@
             BtnOther.UseVisualStyleBackColor = true;
             BtnOther.Click += BtnOther_Click;
             // 
-            // Form1
+            // TabForm
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -118,10 +119,12 @@
             Controls.Add(BtnData);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "TabForm";
             Text = "Yu.Client.WF";
             Load += Form1_Load;
+            Resize += TabForm_Resize;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

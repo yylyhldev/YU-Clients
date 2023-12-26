@@ -1,6 +1,6 @@
 ﻿namespace Yu.Client.WF
 {
-    partial class DataControl
+    partial class MediaControl
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -33,20 +33,20 @@
             // 
             // button1
             // 
-            button1.Location = new Point(124, 109);
+            button1.Location = new Point(51, 60);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "data";
+            button1.Text = "media";
             button1.UseVisualStyleBackColor = true;
             // 
-            // DataControl
+            // MediaControl
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
-            Name = "DataControl";
-            Size = new Size(473, 301);
+            Name = "MediaControl";
+            Resize += MediaControl_Resize;
             ResumeLayout(false);
         }
 

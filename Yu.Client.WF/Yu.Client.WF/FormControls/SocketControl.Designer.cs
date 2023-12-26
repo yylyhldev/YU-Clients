@@ -1,6 +1,6 @@
 ﻿namespace Yu.Client.WF
 {
-    partial class MediaControl
+    partial class SocketControl
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -33,19 +33,20 @@
             // 
             // button1
             // 
-            button1.Location = new Point(51, 60);
+            button1.Location = new Point(41, 64);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "media";
+            button1.Text = "socket";
             button1.UseVisualStyleBackColor = true;
             // 
-            // MediaControl
+            // SocketControl
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
-            Name = "MediaControl";
+            Name = "SocketControl";
+            Resize += SocketControl_Resize;
             ResumeLayout(false);
         }
 

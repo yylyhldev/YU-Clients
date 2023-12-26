@@ -1,6 +1,6 @@
 ﻿namespace Yu.Client.WF
 {
-    partial class MapControl
+    partial class BleControl
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -33,19 +33,21 @@
             // 
             // button1
             // 
-            button1.Location = new Point(32, 53);
+            button1.Location = new Point(106, 59);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "map";
+            button1.Text = "ble";
             button1.UseVisualStyleBackColor = true;
             // 
-            // MapControl
+            // BleControl
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
-            Name = "MapControl";
+            Name = "BleControl";
+            Size = new Size(323, 200);
+            Resize += BleControl_Resize;
             ResumeLayout(false);
         }
 
