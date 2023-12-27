@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             dataGridView1 = new DataGridView();
             panel1 = new Panel();
             CkbCancel = new CheckBox();
@@ -113,7 +114,7 @@
             // Id
             // 
             Id.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Id.FillWeight = 32.9045944F;
+            Id.FillWeight = 18.79667F;
             Id.HeaderText = "ID";
             Id.Name = "Id";
             Id.ReadOnly = true;
@@ -122,7 +123,7 @@
             // MinCount
             // 
             MinCount.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            MinCount.FillWeight = 32.9045944F;
+            MinCount.FillWeight = 18.79667F;
             MinCount.HeaderText = "最小数";
             MinCount.Name = "MinCount";
             MinCount.ReadOnly = true;
@@ -130,7 +131,7 @@
             // MaxCount
             // 
             MaxCount.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            MaxCount.FillWeight = 32.9045944F;
+            MaxCount.FillWeight = 18.79667F;
             MaxCount.HeaderText = "最大数";
             MaxCount.Name = "MaxCount";
             MaxCount.ReadOnly = true;
@@ -138,7 +139,7 @@
             // Surplus
             // 
             Surplus.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Surplus.FillWeight = 32.9045944F;
+            Surplus.FillWeight = 18.79667F;
             Surplus.HeaderText = "剩余数";
             Surplus.Name = "Surplus";
             Surplus.ReadOnly = true;
@@ -146,7 +147,7 @@
             // OrderType
             // 
             OrderType.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            OrderType.FillWeight = 32.9045944F;
+            OrderType.FillWeight = 18.79667F;
             OrderType.HeaderText = "类型";
             OrderType.Name = "OrderType";
             OrderType.ReadOnly = true;
@@ -154,7 +155,7 @@
             // OrderUser
             // 
             OrderUser.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            OrderUser.FillWeight = 32.9045944F;
+            OrderUser.FillWeight = 18.79667F;
             OrderUser.HeaderText = "用户";
             OrderUser.Name = "OrderUser";
             OrderUser.ReadOnly = true;
@@ -162,7 +163,7 @@
             // AddTime
             // 
             AddTime.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            AddTime.FillWeight = 32.9045944F;
+            AddTime.FillWeight = 18.79667F;
             AddTime.HeaderText = "挂单时间";
             AddTime.Name = "AddTime";
             AddTime.ReadOnly = true;
@@ -170,7 +171,7 @@
             // IsFinish
             // 
             IsFinish.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            IsFinish.FillWeight = 32.9045944F;
+            IsFinish.FillWeight = 18.79667F;
             IsFinish.HeaderText = "状态";
             IsFinish.Name = "IsFinish";
             IsFinish.ReadOnly = true;
@@ -178,7 +179,7 @@
             // FinishTime
             // 
             FinishTime.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            FinishTime.FillWeight = 32.9045944F;
+            FinishTime.FillWeight = 18.79667F;
             FinishTime.HeaderText = "取消/结束时间";
             FinishTime.Name = "FinishTime";
             FinishTime.ReadOnly = true;
@@ -186,7 +187,9 @@
             // ToOpera
             // 
             ToOpera.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            ToOpera.FillWeight = 47.43077F;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            ToOpera.DefaultCellStyle = dataGridViewCellStyle1;
+            ToOpera.FillWeight = 50F;
             ToOpera.HeaderText = "操作区";
             ToOpera.Name = "ToOpera";
             ToOpera.ReadOnly = true;

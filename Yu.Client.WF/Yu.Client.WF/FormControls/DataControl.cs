@@ -127,18 +127,15 @@
                 switch (dataGridView1.Columns[e.ColumnIndex].Name)
                 {
                     case "ToOpera":
+                        var msg = $"{e.RowIndex}行 {e.ColumnIndex}列";
                         var rect = this.dataGridView1.GetCellDisplayRectangle(e.ColumnIndex, e.RowIndex, false);//单元格矩形
-                        if (0 < mouseX && mouseX < rect.Width / 3)
+                        if (mouseX < rect.Width / 2)
                         {
-                            MessageBox.Show($"删除 {e.RowIndex}行 {e.ColumnIndex}列");
+                            MessageBox.Show($"删除 {msg}");
                         }
-                        else if (rect.Width / 3 < mouseX && mouseX < rect.Width / 3 * 2)
+                        else
                         {
-                            MessageBox.Show($"编辑 {e.RowIndex}行 {e.ColumnIndex}列");
-                        }
-                        else if (rect.Width / 3 * 2 < mouseX && mouseX < rect.Width)
-                        {
-                            MessageBox.Show($"隐藏 {e.RowIndex}行 {e.ColumnIndex}列");
+                            MessageBox.Show($"编辑 {msg}");
                         }
                         break;
                 }
